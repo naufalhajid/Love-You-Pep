@@ -62,23 +62,6 @@
 
         var len = imageArray.length;
         var t = 0;
-
-        // Fungsi untuk memulai atau menghentikan lagu dan animasi
-        function play() {
-            if (audio.paused) {
-                audio.play();
-            } else {
-                audio.pause();
-            }
-        }
-
-        // Memulai lagu saat dokumen selesai dimuat
-        document.addEventListener("DOMContentLoaded", function() {
-            // Tambahkan pengaturan saat dokumen dimuat
-            document.addEventListener("click", function() {
-                audio.play();
-            });
-        });
     </script>
 
     <script type="text/javascript" src="./js/stars.js"></script>
