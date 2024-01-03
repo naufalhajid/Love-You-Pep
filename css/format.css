@@ -12,7 +12,7 @@
 #txt1 {
 	font-size: 16px;
 	text-align: center;
-	color: whitesmoke;
+	color: white;
 }
 #txt2 {
 	font-size: 16px;
@@ -113,14 +113,13 @@
 	height: 50%;
 }
 
-#img {
-    display: block;
-    left: 0;
-    right: 0;
-    margin: auto;
-    max-width: 35%; /* Menetapkan lebar maksimum gambar sebagai 100% dari lebar parent */
-    height: auto; /* Mempertahankan rasio aspek gambar */
-    max-height: 35%; /* Menetapkan tinggi maksimum gambar sebagai 100% dari tinggi parent */
+#img{
+	display: block;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: auto;
+	height: 100%;
 }
 
 #Txt{
